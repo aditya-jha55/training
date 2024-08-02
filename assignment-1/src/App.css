@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box
+}
+.main{
+  padding: 15px
+}
+.child{
+  padding: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 8px
+}
