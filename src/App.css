@@ -9,3 +9,23 @@
   border: 1px solid #cccccc;
   border-radius: 8px
 }
+.login{
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 0 auto
+}
+.login label, .login input{
+  display: block;
+  width: 100%
+}
+.login input{
+  margin: 10px 0 20px;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.authBody h3{
+  text-align: center
+}
