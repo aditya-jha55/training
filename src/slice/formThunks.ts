@@ -9,14 +9,14 @@ interface FormData {
   confirmPassword: string;
 }
 
-// Ensure FormData is used as the argument type
+
 export const submitFormThunk = createAsyncThunk(
   'form/submitForm',
   async (formData: FormData, { rejectWithValue }) => {
     try {
       const response = await submitFormApi(formData);
       console.log("response", response)
-      return response; // Assuming API returns the submitted data or a success message
+      return response; 
     } catch (error) {
       return rejectWithValue('Failed to submit form');
     }
